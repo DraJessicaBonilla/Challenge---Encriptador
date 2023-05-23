@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Alura Challenge - JessicaBonilla</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Vector.png" alt="Logo de Alura">
+
+    </header>
+
+<main>
+    <section>
+        <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+        <div>
+            <h6 class="informacion">⚠️Solo letras minúsculas y sin acentos </h6>
+        </div>
+
+        <div class="botones">
+            <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+            <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+    <section>
+        <textarea class="mensaje" cols="30" rows="10"></textarea>
+       
+        <div class="botones2">
+
+            <button class="copiar" onclick="copiar()" >Copiar</button>
+            <button class="limpiar" onclick="limpiar()">Limpiar</button>
+        </div>
+    </section>
+    </main>
+    <script src="index.js"></script> 
+</body>
+</html>
